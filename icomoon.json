@@ -1,0 +1,66 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M694.757 544.087c0-128.349 106.027-192.523 111.608-195.313-61.384-89.286-153.46-100.447-186.943-100.447-78.125-8.371-156.251 47.433-195.313 47.433-41.853 0-103.237-47.433-170.202-44.643-86.496 0-167.411 50.223-212.054 128.349-92.076 156.251-22.322 387.837 64.174 516.185 44.643 61.384 94.866 131.139 161.831 128.349 64.174-2.79 89.286-41.853 167.411-41.853 78.125 0 100.447 41.853 167.411 39.063 69.755 0 114.398-61.384 156.251-125.559 50.223-72.545 69.755-142.3 72.545-145.090-2.79-0-136.719-50.223-136.719-206.474zM566.409 164.621c36.272-44.643 58.594-103.237 53.014-164.621-50.223 2.79-114.398 36.272-150.67 78.125-33.482 39.063-61.384 100.447-53.014 159.041 55.804 2.79 114.398-30.692 150.67-72.545z"
+				],
+				"width": 831,
+				"grid": 0,
+				"tags": [
+					"apple-ico"
+				]
+			},
+			"properties": {
+				"order": 1,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "apple-ico",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": ""
+	}
+}

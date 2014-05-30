@@ -1,0 +1,413 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  vertical-align: middle;
+  margin: 0;
+  text-align: center;
+  color: white;
+  background: white;
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -4px;
+  min-width:1000px;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: none;
+}
+
+body:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+}
+
+* {
+  max-height: 100000px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  -moz-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+input,
+textarea,
+select {
+  font: 100% "Open Sans", Arial, Helvetica, sans-serif;
+  color: black;
+  vertical-align: middle;
+}
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+  margin: 0;
+  padding: 4px 7px;
+  border: 1px solid #999999;
+}
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  border-color: #4d4d4d;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  vertical-align: top;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+  margin: 0 0 1.2em;
+}
+
+p {
+  margin: 0 0 1.2em;
+}
+
+q {
+  quotes: none;
+}
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?gs6efm");
+  src: url("../fonts/icomoon.eot?#iefixgs6efm") format("embedded-opentype"), url("../fonts/icomoon.woff?gs6efm") format("woff"), url("../fonts/icomoon.ttf?gs6efm") format("truetype"), url("../fonts/icomoon.svg?gs6efm#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-apple-ico:before {
+  content: "\e600";
+}
+
+.wrapper {
+  letter-spacing: 0;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  font: 22px/1.364 "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+main p {
+  margin: 0 0 24px;
+}
+
+#main {
+  width: 985px;
+}
+#main:after {
+  content: '';
+  height: 100%;
+  width: 1px;
+  margin: 0 -1px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.iphone-box {
+  position: relative;
+  background: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  width: 415px;
+  border: 8px solid #5697c4;
+  border-radius: 62px;
+  padding: 32px 20px 23px;
+  margin: 0 94px 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.iphone-box .circle {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 3px solid #c7d7e2;
+  border-radius: 8px;
+  margin: 0 auto 15px;
+}
+.iphone-box .elipse {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 69px;
+  height: 13px;
+  border: 3px solid #c7d7e2;
+  border-radius: 6px;
+  margin: 0 auto 32px;
+}
+.iphone-box .screen-block {
+  width: 350px;
+  border: 4px solid #c7d7e2;
+  border-radius: 5px;
+  margin: 0 0 20px;
+}
+.iphone-box .screen-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.iphone-box .btn-menu {
+  display: block;
+  width: 68px;
+  height: 68px;
+  border: 3px solid #c7d7e2;
+  border-radius: 34px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-indent: -9999px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+.iphone-box .btn-menu:before {
+  content: '';
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: 3px solid #c7d7e2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.iphone-box .btn-small, .iphone-box .btn-large {
+  position: absolute;
+  left: -13px;
+  top: 115px;
+  background: #5697c4;
+  width: 5px;
+  height: 38px;
+  border-radius: 3px 0 0 3px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.iphone-box .btn-large {
+  top: 179px;
+  height: 60px;
+}
+.iphone-box .pos02 {
+  top: 260px;
+}
+
+.text-block {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin: 10px 0 0;
+  font-weight: 300;
+}
+.text-block .heading {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0 0 97px;
+}
+.text-block .heading p {
+  margin: 0 0 8px;
+}
+.text-block .heading h1 {
+  font: 54px/58px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+  background: none;
+  color: #fff;
+  margin: 0;
+}
+.text-block .btn-apps {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid #a1c1b9;
+  border-radius: 34px;
+  height: 73px;
+  margin: 0 0 101px;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding: 14px 31px 0 74px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+.text-block .btn-apps:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 3px #000;
+}
+.text-block .btn-apps .text {
+  display: block;
+  font: 14px/14px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.text-block .btn-apps mark {
+  display: block;
+  background: none;
+  font: 26px/28px 'Open Sans', Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.text-block .btn-apps:before {
+  position: absolute;
+  left: 33px;
+  top: 16px;
+  font-size: 37px;
+}
+
+.main-nav ul {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 14px;
+  letter-spacing: 0;
+}
+.main-nav ul a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.bg-page {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
